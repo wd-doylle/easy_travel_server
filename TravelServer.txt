@@ -1,0 +1,16 @@
+TravelServer
+	--api //处理数据库请求
+		DBQuery.py  //数据库查询
+		views.py //处理请求
+		urls.py //管理URL目标
+		//其余为Django项目默认文件
+	--user //处理用户系统请求
+		models.py //定义用户类与路线类
+		views.py //处理请求
+		urls.py //管理URL目标
+		rsa_util.py //处理RSA加密（未实际应用）
+	--TravelServer
+		settings.py //管理项目设置
+		urls.py //管理URL目标
+	manage.py //项目管理工具
+	SBsDATASET.db //数据库
